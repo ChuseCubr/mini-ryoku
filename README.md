@@ -12,11 +12,11 @@ Mini-ryoku is a compact 34-key adaptation of the [Miryoku layout](https://github
   - [Layers](#layers)
     - [Base](#base)
     - [Num-Sym-Nav](#num-sym-nav)
-      - [Left Side](#left-side-(num-sym))
-      - [Right Side](#right-side-(nav))
+      - [Left Side](#left-side-num-sym)
+      - [Right Side](#right-side-nav)
     - [Function-Mouse-Media](#function-mouse-media)
-      - [Left Side](#left-side-(function))
-      - [Right Side](#right-side-(mouse-media))
+      - [Left Side](#left-side-function)
+      - [Right Side](#right-side-mouse-media)
 
 ## About the Layout
 
