@@ -4,6 +4,8 @@ Mini-ryoku is a compact 34-key adaptation of the [Miryoku layout](https://github
 
 ![mini-ryoku](images/miniryoku.png)
 
+The files in this repo are for the [Ferris Sweep](https://github.com/davidphilipbarr/Sweep) to be used in [QMK configurator](https://config.qmk.fm) or [Vial](https://get.vial.today/).
+
 ## Table of Contents
 
 - [About the Layout](#about-the-layout)
@@ -23,14 +25,15 @@ Mini-ryoku is a compact 34-key adaptation of the [Miryoku layout](https://github
 I have two main issues with the Miryoku layout for my needs:
 
 1. **It has too many layers.**
-    - I currently use Vial on a bigger keyboard since I like to experiment. This takes up more memory and limits the number of layers I can have.
-    - I want to have room for extra layers like gaming layers.
+    - I currently use Vial on a bigger keyboard since I like to experiment. This takes up more memory and limits the number of layers I can have. I want to have room for extra layers like gaming layers.
 2. **It was made for 36 keys.**
     - 36 keys is already pretty niche, but I wanted to push my limits and see if 34 keys is usable for me.
 
 To fix these, I had to make changes that break the [principles that Miryoku abides by](https://github.com/manna-harbour/miryoku/tree/master/docs/reference#general-principles). If these principles are important to you, this may not be your layout.
 
-This also doesn't have all the features Miryoku offers, but it's all that I need.
+This doesn't have all the features Miryoku offers, but it's all that I need. With all the extra space, you could always add your own. For example, I have my own gaming layers.
+
+This layout also doesn't use features like tapdance and combos. Once again, for you Vial folks, this allows you to save space for the features that you need.
 
 ## Layout
 
