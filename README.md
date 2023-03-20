@@ -4,7 +4,7 @@ Mini-ryoku is a compact 34-key adaptation of the [Miryoku layout](https://github
 
 ![mini-ryoku](images/miniryoku.png)
 
-The files in this repo are for the [Ferris Sweep](https://github.com/davidphilipbarr/Sweep) to be used in [QMK configurator](https://config.qmk.fm) or [Vial](https://get.vial.today/).
+The files in this repo are for the [Ferris Sweep](https://github.com/davidphilipbarr/Sweep) to be used in QMK, [QMK configurator](https://config.qmk.fm) or [Vial](https://get.vial.today/).
 
 ## Table of Contents
 
