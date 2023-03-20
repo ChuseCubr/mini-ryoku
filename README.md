@@ -33,7 +33,7 @@ To fix these, I had to make changes that break the [principles that Miryoku abid
 
 This doesn't have all the features Miryoku offers, but it's all that I need. With all the extra space, you could always add your own. For example, I have my own gaming layers.
 
-This layout also doesn't use features like tapdance and combos. Once again, for you Vial folks, this allows you to save space for the features that you need.
+This layout also doesn't use features like tapdance and combos. This lessens the need to rely on timing, makes it possible to replicate in QMK configurator, and takes up less space for Vial users.
 
 ## Layout
 
