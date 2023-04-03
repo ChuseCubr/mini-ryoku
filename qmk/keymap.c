@@ -3,26 +3,24 @@
 
 /* This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>. */
 
-#pragma once
+#include QMK_KEYBOARD_H
 
-/* Select hand configuration */
+#include "layout.h"
 
-// #define MASTER_LEFT
-// #define MASTER_RIGHT
-// #define EE_HANDS /* My preference */
+/* for >34 key users, create a similar file and include here */
+// #include "masks/lily58.h"
+// #include "masks/crkbd.h"
 
-/* Tap Hold Settings */
+enum layer_number {
+  _BASE = 0,
+  _SYM,
+  _FUN,
+};
 
-#define TAPPING_FORCE_HOLD
-#define IGNORE_MOD_TAP_INTERRUPT
+/* see https://github.com/ChuseCubr/mini-ryoku for layout details */
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  [_BASE] = LAYOUT_mask(_BASE_LAYOUT),
+  [_SYM] = LAYOUT_mask(_SYM_LAYOUT),
+  [_FUN] = LAYOUT_mask(_FUN_LAYOUT),
+};
 
-/* My preferences */
-
-// #define TAPPING_TERM 50
-
-/* Mouse settings (Defaults converted for 144Hz) */
-
-// #define MOUSEKEY_INTERVAL 6
-// #define MOUSEKEY_MOVE_DELTA 5
-// #define MOUSEKEY_MAX_SPEED 3
-// #define MOUSEKEY_TIME_TO_MAX 333
