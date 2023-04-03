@@ -54,7 +54,7 @@
 /*   | Z       | X       | C       | D       | V       |    | K       | H       | , <     | . >     | / ?     |   */\
        MT_Z    , MT_X    , MT_C    , MT_D    , MT_V    ,      KC_K    , MT_H    , MT_COMM , MT_DOT  , MT_SLSH ,     \
 /*   `-------------------------------------------------|    |-------------------------------------------------'   */\
-/*                                 | SPC     | TAB     |    | ENT     | LT_BSPC |                                 */\
+/*                                 | SPACE   | TAB     |    | ENTER   | BSPC    |                                 */\
                                      KC_SPC  , LT_TAB  ,      KC_ENT  , LT_BSPC
 /*                                 `-------------------'    `-------------------'                                 */
 
@@ -88,6 +88,7 @@
                                      KC_NO   , KC_TRNS ,      KC_BTN2 , KC_BTN1
 /*                                 `-------------------'    `-------------------'                                 */
 
+/* For Vial users who want blank layers to map experimental layers onto */
 #define _BLANK_LAYOUT \
 /*   ,-------------------------------------------------.    ,-------------------------------------------------.   */\
 /*   |         |         |         |         |         |    |         |         |         |         |         |   */\
