@@ -54,8 +54,8 @@
 /*   | Z       | X       | C       | D       | V       |    | K       | H       | , <     | . >     | / ?     |   */\
        MT_Z    , MT_X    , MT_C    , MT_D    , MT_V    ,      KC_K    , MT_H    , MT_COMM , MT_DOT  , MT_SLSH ,     \
 /*   `-------------------------------------------------|    |-------------------------------------------------'   */\
-/*                                 | SPACE   | TAB     |    | ENTER   | BSPC    |                                 */\
-                                     KC_SPC  , LT_TAB  ,      KC_ENT  , LT_BSPC
+/*                                 | SPACE   | TAB     |    | REPEAT  | BSPC    |                                 */\
+                                     KC_SPC  , LT_TAB  ,      REPEAT  , LT_BSPC
 /*                                 `-------------------'    `-------------------'                                 */
 
 #define _SYM_LAYOUT \
@@ -63,8 +63,8 @@
 /*   | [ {     | 5 %     | 6 ^     | 7 &     | ] }     |    | PG UP   | HOME    | ▲       | END     | PSCR    |   */\
        KC_LBRC , KC_5    , KC_6    , KC_7    , KC_RBRC ,      KC_PGUP , KC_HOME , KC_UP   , KC_END  , KC_PSCR ,     \
 /*   |-------------------------------------------------|    |-------------------------------------------------|   */\
-/*   | ; :     | 9 (     | 0 )     | 1 !     | = +     |    | PG DN   | ◀       | ▼       | ▶       | INSERT  |   */\
-       KC_SCLN , KC_9    , KC_0    , KC_1    , KC_EQL  ,      KC_PGDN , KC_LEFT , KC_DOWN , KC_RGHT , KC_INS  ,     \
+/*   | ; :     | 9 (     | 0 )     | 1 !     | = +     |    | PG DN   | ◀       | ▼       | ▶       | ENTER   |   */\
+       KC_SCLN , KC_9    , KC_0    , KC_1    , KC_EQL  ,      KC_PGDN , KC_LEFT , KC_DOWN , KC_RGHT , ENTER   ,     \
 /*   |-------------------------------------------------|    |-------------------------------------------------|   */\
 /*   | ` ~     | 2 @     | 3 #     | 4 $     | \ |     |    | CAPS    | SHIFT   | ESC     | DEL     | RGUI    |   */\
        MT_GRV  , MT_2    , MT_3    , MT_4    , KC_BSLS ,      KC_CAPS , KC_RSFT , MT_ESC  , MT_DEL  , KC_RGUI ,     \

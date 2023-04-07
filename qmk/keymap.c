@@ -26,3 +26,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_FUN] = LAYOUT_mask(_FUN_LAYOUT),
 };
 
+#ifdef REPEAT_KEY_ENABLE
+#include "repeat.h"
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  process_repeat_key(keycode, record);
+
+  mod_state = get_mods();
+  oneshot_mod_state = get_oneshot_mods();
+  return true;
+}
+#endif
+
