@@ -19,7 +19,7 @@ enum layer_number {
   _FUN,
 };
 
-/* see https://github.com/ChuseCubr/mini-ryoku for layout details */
+/* see layout.h for details */
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT_mask(_BASE_LAYOUT),
   [_SYM] = LAYOUT_mask(_SYM_LAYOUT),
