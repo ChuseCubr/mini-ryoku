@@ -6,6 +6,8 @@ Mini-ryoku is a compact 34-key adaptation of the [Miryoku layout](https://github
 
 The files in this repo are for the [Ferris Sweep](https://github.com/davidphilipbarr/Sweep) to be used in QMK, [QMK configurator](https://config.qmk.fm) or [Vial](https://get.vial.today/).
 
+This is an experimental branch to try using a repeat key.
+
 ## Table of Contents
 
 - [About the Layout](#about-the-layout)
@@ -61,8 +63,8 @@ Like the default Miryoku layout, this uses the Colemak-DH layout with one change
 |---|---|
 |`escape` and `backspace` thumb keys are removed.|To fit on 34 keys.|
 |`space` is now a dedicated key.|Good for fast typists (I'm relatively quick at around 110 WPM with this layout).|
-|`enter` is now a dedicated key.|It's too important to accidentally press when attempting to hold.|
 |`v` is now a mod tap for `ctrl`.|Allows for one-handed copying.|
+|`repeat`|To avoid double taps. This is using [precondition's implementation](https://github.com/precondition/dactyl-manuform-keymap/blob/main/keymap.c#L303)|
 
 #### Num-Sym-Nav
 
@@ -88,14 +90,27 @@ This is where I start to completely deviate from Miryoku. Layers from hereon are
 
 Should you make changes, I recommend keeping the dedicated `shift` key for quick access to symbols on the left half.
 
+|Design decision|Reason|
+|---|---|
+|WASD/inverted T arrow keys|I never got used to Vim-style arrow keys. Keeping a more conventional arrow cluster on the right hand without needing the left hand to access it felt natural to me, coming from a traditional TKL layout|
+|`home` and `end`|Like big left/right arrow keys for faster line start/end navigation outside Vim|
+|`escape` and `del`|Having removed them from the base layer, I put them here. I left `shift` alone to have faster access to symbols instead of waiting for two tap holds|
+|`enter`|Here for one-handed right-hand enter, since repeat key replaced it.|
+
+The rest of the keys I don't use much, but I put them where I felt made sense. This is where I recommend you deviate. For example, you can put layer toggles or extra keys here.
+
 #### Function-Mouse-Media
 
 ![mini-ryoku function layer](images/miniryoku-function.png)
 
 ##### Left Side (Function)
 
-I don't use `scroll lock` and `pause break`, so I moved `F10`-`F12` to the right side to make space for `escape`. This allows for left-hand one-handed `escape`.
+I don't use `scroll lock` and `pause break`, so I moved `F10`-`F12` to the right side to make space for `escape` on the left side. This allows for left-hand one-handed `ctrl+shift+escape`.
 
 ##### Right Side (Mouse-Media)
 
 Like the nav layer right half, this layer is arbitrary. Feel free to make changes.
+
+Mouse keys are set up in a similar way to the nav cluster keys. Left/right scrolling isn't common, so you can map other keys there if it suits you better.
+
+The media keys are also extra keys I don't use much. I recommend that you use these keys if you want to modify this layout.

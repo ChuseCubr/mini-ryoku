@@ -63,11 +63,11 @@
 /*   | [ {     | 5 %     | 6 ^     | 7 &     | ] }     |    | PG UP   | HOME    | ▲       | END     | PSCR    |   */\
        KC_LBRC , KC_5    , KC_6    , KC_7    , KC_RBRC ,      KC_PGUP , KC_HOME , KC_UP   , KC_END  , KC_PSCR ,     \
 /*   |-------------------------------------------------|    |-------------------------------------------------|   */\
-/*   | ; :     | 9 (     | 0 )     | 1 !     | = +     |    | PG DN   | ◀       | ▼       | ▶       | ENTER   |   */\
-       KC_SCLN , KC_9    , KC_0    , KC_1    , KC_EQL  ,      KC_PGDN , KC_LEFT , KC_DOWN , KC_RGHT , ENTER   ,     \
+/*   | ; :     | 9 (     | 0 )     | 1 !     | = +     |    | CAPS    | ◀       | ▼       | ▶       | ENTER   |   */\
+       KC_SCLN , KC_9    , KC_0    , KC_1    , KC_EQL  ,      KC_CAPS , KC_LEFT , KC_DOWN , KC_RGHT , ENTER   ,     \
 /*   |-------------------------------------------------|    |-------------------------------------------------|   */\
-/*   | ` ~     | 2 @     | 3 #     | 4 $     | \ |     |    | CAPS    | SHIFT   | ESC     | DEL     | RGUI    |   */\
-       MT_GRV  , MT_2    , MT_3    , MT_4    , KC_BSLS ,      KC_CAPS , KC_RSFT , MT_ESC  , MT_DEL  , KC_RGUI ,     \
+/*   | ` ~     | 2 @     | 3 #     | 4 $     | \ |     |    | PG DN   | SHIFT   | ESC     | DEL     | RGUI    |   */\
+       MT_GRV  , MT_2    , MT_3    , MT_4    , KC_BSLS ,      KC_PGDN , KC_RSFT , MT_ESC  , MT_DEL  , KC_RGUI ,     \
 /*   `-------------------------------------------------|    |-------------------------------------------------'   */\
 /*                                 | - _     | 8 *     |    |         |         |                                 */\
                                      KC_MINS , KC_8    ,      KC_NO   , KC_TRNS
@@ -78,11 +78,11 @@
 /*   |         | F7      | F8      | F9      | F12     |    | ⇑       | ⇐       | ↑       | ⇒       | VOL +   |   */\
        KC_NO   , KC_F7   , KC_F8   , KC_F9   , KC_F12  ,      KC_WH_U , KC_WH_L , KC_MS_U , KC_WH_R , KC_VOLU ,     \
 /*   |-------------------------------------------------|    |-------------------------------------------------|   */\
-/*   | ESC     | F4      | F5      | F6      | F11     |    | ⇓       | ←       | ↓       | →       | VOL -   |   */\
-       KC_ESC  , KC_F4   , KC_F5   , KC_F6   , KC_F11  ,      KC_WH_D , KC_MS_L , KC_MS_D , KC_MS_R , KC_VOLD ,     \
+/*   | ESC     | F4      | F5      | F6      | F11     |    | MIDDLE  | ←       | ↓       | →       | VOL -   |   */\
+       KC_ESC  , KC_F4   , KC_F5   , KC_F6   , KC_F11  ,      KC_BTN3 , KC_MS_L , KC_MS_D , KC_MS_R , KC_VOLD ,     \
 /*   |-------------------------------------------------|    |-------------------------------------------------|   */\
-/*   | LGUI    | F1      | F2      | F3      | F10     |    | MIDDLE  | <<      | PLAY    | >>      | MUTE    |   */\
-       KC_LGUI , MT_F1   , MT_F2   , MT_F3   , KC_F10  ,      KC_BTN3 , MT_MRWD , MT_MPLY , MT_MFFD , MT_MUTE ,     \
+/*   | LGUI    | F1      | F2      | F3      | F10     |    | ⇓       | <<      | PLAY    | >>      | MUTE    |   */\
+       KC_LGUI , MT_F1   , MT_F2   , MT_F3   , KC_F10  ,      KC_WH_D , MT_MRWD , MT_MPLY , MT_MFFD , MT_MUTE ,     \
 /*   `-------------------------------------------------|    |-------------------------------------------------'   */\
 /*                                 |         |         |    | RIGHT   | LEFT    |                                 */\
                                      KC_NO   , KC_TRNS ,      KC_BTN2 , KC_BTN1
