@@ -19,6 +19,7 @@ The files in this repo are for the [Ferris Sweep](https://github.com/davidphilip
     - [Function-Mouse-Media](#function-mouse-media)
       - [Left Side](#left-side-function)
       - [Right Side](#right-side-mouse-media)
+- [Alternate Layouts](#alternate-layouts)
 
 ## About the Layout
 
@@ -111,3 +112,7 @@ Like the nav layer right half, this layer is arbitrary. Feel free to make change
 Mouse keys are set up in a similar way to the nav cluster keys. Left/right scrolling isn't common, so you can map other keys there if it suits you better.
 
 The media keys are also extra keys I don't use much. I recommend that you use these keys if you want to modify this layout.
+
+# Alternate Layouts
+
+Check out the [branches](https://github.com/ChuseCubr/mini-ryoku/branches) for alternatives like one with a [repeat key implementation](https://github.com/ChuseCubr/mini-ryoku/tree/repeat_key).
