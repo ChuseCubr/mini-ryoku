@@ -101,14 +101,14 @@
         "KC_RIGHT",
         "KC_DOWN",
         "KC_LEFT",
-        "KC_PGDOWN"
+        "KC_CAPSLOCK"
       ],
       [
         "KC_RGUI",
         "RALT_T(KC_DELETE)",
         "RCTL_T(KC_ESCAPE)",
         "KC_RSHIFT",
-        "KC_CAPSLOCK"
+        "KC_PGDOWN"
       ],
       [
         "KC_TRNS",
@@ -159,14 +159,14 @@
         "KC_MS_R",
         "KC_MS_D",
         "KC_MS_L",
-        "KC_WH_D"
+        "KC_BTN3"
       ],
       [
         "RGUI_T(KC_MUTE)",
         "RALT_T(KC_MNXT)",
         "RCTL_T(KC_MPLY)",
         "RSFT_T(KC_MPRV)",
-        "KC_BTN3"
+        "KC_WH_D"
       ],
       [
         "KC_BTN1",

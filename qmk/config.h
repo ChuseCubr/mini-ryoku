@@ -18,7 +18,7 @@
 
 /* My preferences */
 
-// #define TAPPING_TERM 50
+// #define PERMISSIVE_HOLD
 
 /* Mouse settings (Defaults converted for 144Hz) */
 
