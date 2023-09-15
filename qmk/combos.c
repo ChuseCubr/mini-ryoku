@@ -12,10 +12,10 @@ enum combos {
   LU_MINS,
   UY_QUOT,
 
-  LUY_CAPS,
+  WFP_CAPS,
   NEI_HOME,
   HCP_SYM,
-  WFP_FUN
+  LUY_FUN
 };
 
 const uint16_t PROGMEM wf_combo[] = {KC_W, KC_F, COMBO_END};
@@ -34,10 +34,10 @@ combo_t key_combos[] = {
   [LU_MINS] = COMBO(lu_combo, KC_MINS),
   [UY_QUOT] = COMBO(uy_combo, KC_QUOT),
 
-  [LUY_CAPS] = COMBO(luy_combo, KC_CAPS),
+  [WFP_CAPS] = COMBO(wfp_combo, KC_CAPS),
   [NEI_HOME] = COMBO(nei_combo, TO(_HOME)),
   [HCP_SYM] = COMBO(hcp_combo, TO(_SYM)),
-  [WFP_FUN] = COMBO(wfp_combo, TO(_FUN))
+  [LUY_FUN] = COMBO(luy_combo, TO(_FUN))
 };
 
 bool combo_should_trigger(uint16_t combo_index, combo_t *combo, uint16_t keycode, keyrecord_t *record) {
