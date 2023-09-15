@@ -50,8 +50,8 @@
 /*   | LGUI    | F1      | F2      | F3      | F6      |    | F10     | PREV TR | PLAY    | NEXT TR | MUTE    |   */\
        KC_LGUI , MT_F1   , MT_F2   , MT_F3   , KC_F7   ,      KC_F10  , MT_MPRV , MT_MPLY , MT_MNXT , MT_MUTE ,     \
 /*   `-------------------------------------------------|    |-------------------------------------------------'   */\
-/*                                 |         |         |    |         |         |                                 */\
-                                     KC_NO   , KC_TRNS ,      KC_NO   , KC_NO
+/*                                 |         |         |    |         | OSL SYM |                                 */\
+                                     KC_NO   , KC_TRNS ,      KC_NO   , OSL_SYM
 /*                                 `-------------------'    `-------------------'                                 */
 
 #define _GAME1_LAYOUT \
