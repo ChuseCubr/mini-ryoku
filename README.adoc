@@ -6,7 +6,11 @@ Mini-ryoku is a compact 34-key adaptation of the https://github.com/manna-harbou
 
 image::images/miniryoku.png[mini-ryoku]
 
-The files in this repo are for the https://github.com/davidphilipbarr/Sweep[Ferris Sweep] to be used in QMK, https://config.qmk.fm[QMK configurator] or https://get.vial.today/[Vial].
+See it in action here:
+
+image::https://img.youtube.com/vi/U8XBPkBnx-o/0.jpg[link="https://youtu.be/U8XBPkBnx-o"]
+
+The files in this repo are for the https://github.com/davidphilipbarr/Sweep[Ferris Sweep] to be used in QMK. Unlike the https://github.com/ChuseCubr/mini-ryoku/tree/main[main branch], this isn't available for QMK configurator or Vial (though it's easy to configure yourself).
 
 toc::[]
 
@@ -45,7 +49,9 @@ One of the biggest changes is the use of bottom row mods instead of home row mod
 
 image::images/miniryoku-combos.png[mini-ryoku combos]
 
-I found 34 keys to be too few, as it made me overuse my thumbs. Since then, I've added my most commonly used keys as combos on all layers, as well as layer toggles to prevent thumb overuse.
+I found 34 keys to be too few, as it made me overuse my thumbs. Since then, I've added my most commonly used keys as combos, as well as layer toggles to prevent thumb overuse.
+
+These combos are available on every layer.
 
 === Layers
 
