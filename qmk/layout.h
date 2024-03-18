@@ -35,8 +35,8 @@
 /*   | ` ~     | 2 @     | 3 #     | 4 $     | \ |     |    | PG DN   | SHIFT   | CTRL    | ALT     | GUI     |   */\
        MT_GRV  , MT_2    , MT_3    , MT_4    , KC_BSLS ,      KC_PGDN , KC_RSFT , KC_RCTL , KC_RALT , KC_RGUI ,     \
 /*   `-------------------------------------------------|    |-------------------------------------------------'   */\
-/*                                 | SPC     | 8 *     |    | ENTER   | OSL HOME|                                 */\
-                                     KC_SPC  , KC_8    ,      KC_ENT  , OSL_COPY
+/*                                 | SPC     | 8 *     |    | ENTER   |         |                                 */\
+                                     KC_SPC  , KC_8    ,      KC_ENT  , KC_NO
 /*                                 `-------------------'    `-------------------'                                 */
 
 #define _FUN_LAYOUT \
@@ -50,8 +50,8 @@
 /*   | LGUI    | F1      | F2      | F3      | F6      |    | F10     | PREV TR | PLAY    | NEXT TR | MUTE    |   */\
        KC_LGUI , MT_F1   , MT_F2   , MT_F3   , KC_F7   ,      KC_F10  , MT_MPRV , MT_MPLY , MT_MNXT , MT_MUTE ,     \
 /*   `-------------------------------------------------|    |-------------------------------------------------'   */\
-/*                                 |         |         |    |         | OSL SYM |                                 */\
-                                     KC_NO   , KC_TRNS ,      KC_NO   , OSL_SYM
+/*                                 |         |         |    |         |         |                                 */\
+                                     KC_NO   , KC_TRNS ,      KC_NO   , KC_NO
 /*                                 `-------------------'    `-------------------'                                 */
 
 #define _GAME1_LAYOUT \

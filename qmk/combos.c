@@ -42,9 +42,12 @@ combo_t key_combos[] = {
 
 bool combo_should_trigger(uint16_t combo_index, combo_t *combo, uint16_t keycode, keyrecord_t *record) {
   switch (get_highest_layer(default_layer_state)) {
-    case _GAME1:
-    case _GAME2:
-      return false;
+		/* you can add cases for layers you would like to exclude */
+		/* for example, I have gaming layers in the `layer_number` enum like so: */
+		// case _GAME1:
+		// case _GAME2:
+		// 	return false;
+		default:
+			return true;
   }
-  return true;
 }
